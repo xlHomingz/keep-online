@@ -10,7 +10,7 @@ bot.on("error", (err) => {
 
 bot.on("ready", () => {
   console.log("Bot is ready!");
-  bot.editStatus("idle", { name: "discord.gg/gamertags" }); // Set status to idle with the custom status message
+  bot.editStatus("idle", { name: "discord.gg/gamertags", type: 0 }); // Set status to "idle" with the custom status message
 });
 
 bot.connect(); // Get the bot to connect to Discord
